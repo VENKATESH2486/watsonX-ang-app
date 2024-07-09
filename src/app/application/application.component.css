@@ -1,0 +1,29 @@
+.box1{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* opacity: 0.4; */
+    min-height: 50vh;
+    font: bold;
+    /* border: 1px solid rebeccapurple;
+    min-width: 100%;
+    min-height: 90vh;
+    background-repeat: no-repeat;
+    background-size: contain; */
+    /* opacity: 40%; */
+}
+.sertext{
+    font-size: 48px;
+    text-align: center ;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+
+}
+.service{
+    /* text-align: center; */
+    width: 33.33%;
+    border: 1px solid black;
+    opacity: 1;
+}

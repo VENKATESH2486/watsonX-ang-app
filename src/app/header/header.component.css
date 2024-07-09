@@ -1,0 +1,17 @@
+body{
+    border: 1px solid black;
+}
+.navbar{
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav{
+    display: grid;
+    border: 2px solid blue;
+    flex-direction: row;
+}
+li{
+    list-style: none;
+}
