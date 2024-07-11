@@ -1,11 +1,9 @@
-body{
-    border: 1px solid black;
-}
 .navbar{
-    background-color: lightblue;
+    background-color: rgb(231, 99, 220);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding: 10px;
 }
 nav{
     display: grid;

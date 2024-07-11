@@ -1,0 +1,32 @@
+body{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background: linear-gradient(to bottom right, rgb(79, 79, 205), pink);}
+.flex1{
+    display: flex;
+    min-height: 80vh;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    border: 1px solid rebeccapurple;
+}
+.imagepart{
+    width: 40%;
+    background-image: url('../../assets/stethoscope.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    background-color: rgb(8, 177, 118);
+}
+.textpart{
+    padding: 10%;
+    font-weight: 545;
+    width: 60%;
+    background: lavender;
+}
